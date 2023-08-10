@@ -1,0 +1,20 @@
+name: coloring_environment
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - torchvision
+  - pillow
+  - requests
+  - scikit-image
+  - pip
+  - opencv
+  - pip:
+  - torchvision
+  - onnx
+  - wandb
+  - onnxruntime
+  - ipykernel
